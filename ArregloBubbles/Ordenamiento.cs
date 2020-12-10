@@ -9,24 +9,27 @@ namespace ArregloBubbles
 {
     class Ordenamiento
     {
-        int? aux;
+        int aux;
         int comparaciones = 0;
         int intercambios = 0;
-        int index = 0;
-        int?[] lista = new int?[100];
+        int[] lista;
 
-        public void Agregar(int n)
+        public void Agregar(int rango, int may, int men)
         {
-            lista[index] = n;
-            index++;
+            lista = new int[rango]; 
+            Random random = new Random();
+            for (int i = 0; i < lista.Length; i++)
+            {
+                lista[i] = random.Next(men, may);
+            }
         }
 
         public string Mostrar()
         {
             string numeros = "";
-            if (lista[0] != null)
+            if (lista.Length!=0)
             {
-                for (int i = 0; i < index; i++)
+                for (int i = 0; i < lista.Length; i++)
                 {
                     numeros += lista[i] + ", ";
                 }
@@ -43,9 +46,9 @@ namespace ArregloBubbles
         {
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            for (int i = 1; i < index; i++)
+            for (int i = 1; i < lista.Length; i++)
             {
-                for (int j = 0; j < index - 1; j++)
+                for (int j = 0; j < lista.Length - 1; j++)
                 {
                     comparaciones++;
                     if (lista[j] > lista[j + 1])
@@ -65,7 +68,7 @@ namespace ArregloBubbles
 
         public void VaciarLista()
         {
-            Array.Clear(lista, 0, index);
+            Array.Clear(lista, 0, lista.Length);
         }
     }
 }

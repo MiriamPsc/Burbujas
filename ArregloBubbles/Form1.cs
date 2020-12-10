@@ -28,9 +28,14 @@ namespace ArregloBubbles
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            int n = Convert.ToInt32(textBox1.Text);
-            O.Agregar(n);
+            int tam = Convert.ToInt32(textBox1.Text);
+            int may = Convert.ToInt32(textBox2.Text);
+            int men = Convert.ToInt32(textBox3.Text);
+            O.Agregar(tam, may, men);
             textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+
         }
 
         private void Button2_Click(object sender, EventArgs e)
