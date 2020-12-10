@@ -1,0 +1,10 @@
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\bin\Debug\ArregloBubbles.exe.config
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\bin\Debug\ArregloBubbles.exe
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\bin\Debug\ArregloBubbles.pdb
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\obj\Debug\ArregloBubbles.csprojAssemblyReference.cache
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\obj\Debug\ArregloBubbles.Form1.resources
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\obj\Debug\ArregloBubbles.Properties.Resources.resources
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\obj\Debug\ArregloBubbles.csproj.GenerateResource.cache
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\obj\Debug\ArregloBubbles.csproj.CoreCompileInputs.cache
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\obj\Debug\ArregloBubbles.exe
+C:\Users\miria\source\repos\ArregloBubbles\ArregloBubbles\obj\Debug\ArregloBubbles.pdb
